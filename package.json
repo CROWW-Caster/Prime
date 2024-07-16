@@ -1,7 +1,7 @@
 {
   "name": "tailwindcss",
   "version": "1.0.0",
-  "source": "src/prime.html",
+  "source": "src/gcd.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
