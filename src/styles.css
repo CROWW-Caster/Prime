@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.link{
+    @apply hover:bg-sky-100 hover:text-red-800 hover:shadow-md hover:shadow-gray-800 
+    bg-purple-200 font-semibold text-red-600 inline rounded-lg px-2 m-2 
+    border-solid border-2;
+}
+
+.card{
+    @apply my-10 p-0 w-72 h-72 rounded bg-white relative overflow-hidden shadow-md shadow-gray-700;
+}
+
+.time{
+    @apply absolute top-0 left-0 flex bg-gray-200 rounded-xl m-1 p-1 text-xs;
+}
+
+.button{
+    @apply m-10 text-center text-lg text-red-800 
+    hover:shadow-lg hover:shadow-slate-900 hover:bg-yellow-700 
+    font-mono font-bold 
+    border-solid border-2 border-orange-400 rounded-lg w-32 bg-yellow-100 p-2;
+}
